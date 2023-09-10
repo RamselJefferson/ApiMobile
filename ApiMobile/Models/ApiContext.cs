@@ -35,7 +35,7 @@ public partial class ApiContext : DbContext
     public virtual DbSet<VwVehiculo> VwVehiculos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-HO53QCC;Initial Catalog=Api;User ID=lgonzalez;Password=1234;MultipleActiveResultSets=true;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-2VPR9IB\\SQLEXPRESS;Initial Catalog=Api;User ID=jdelacruz;Password=ramsel2001;MultipleActiveResultSets=true;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -6,10 +6,10 @@ namespace ApiMobile.Models
     {
 
         [Key]
-        public int Id { get; set; }
-        public string? Descripcion { get; set; }
+        public int ItemId { get; set; }
+        public string? ItemDescripcion { get; set; }
         public decimal Precio { get; set; }
-        public string? Categoria { get; set; }
+        public string? CatDescripcion { get; set; }
         public string? Imagen { get; set; }
 
     }
